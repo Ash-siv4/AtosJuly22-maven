@@ -40,6 +40,7 @@ public class CustomerTest {
 	
 	@Test
 	public void testGetAge() {
+		Assertions.assertEquals(0, 0, 0);
 		Assertions.assertEquals(23,cust.getAge());
 		Assertions.assertNotEquals(0, cust.getAge());
 		System.out.println("Test 2");
